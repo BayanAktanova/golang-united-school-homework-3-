@@ -9,7 +9,7 @@ func average(input [15]float32) (result float32) {
  
         // adding the values of
         // array to the variable sum
-        sum += (input[i])
+        float32(sum) += (input[i])
     }
      
     avg := (float32(sum)) / (float32(n))
