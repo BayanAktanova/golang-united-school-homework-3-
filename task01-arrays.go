@@ -25,7 +25,7 @@ func average(input [15]float32) (result float32) {
      
     // typecast all values to float
     // to get the correct result
-    fmt.Println("Sum = ", sum, "\nAverage = ", avg)
+    //fmt.Println("Sum = ", sum, "\nAverage = ", avg)
 
 	return avg
 }
