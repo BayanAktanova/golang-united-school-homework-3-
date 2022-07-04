@@ -21,7 +21,7 @@ func average(input [15]float32) (result float32) {
      
     // declaring a variable
     // avg to find the average
-    avg := (float64(sum)) / (float64(n))
+    avg := (float32(sum)) / (float32(n))
      
     // typecast all values to float
     // to get the correct result
