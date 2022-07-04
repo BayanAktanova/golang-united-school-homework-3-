@@ -7,10 +7,10 @@ func average(input [15]float32) (result float32) {
  
     for i := 0; i < n; i++ {
  
-        sum += (input[i])
+        sum += (array[i])
     }
      
-    avg := sum/n
+    avg := (float32(sum)) / (float32(n))
      
     return avg
 }
