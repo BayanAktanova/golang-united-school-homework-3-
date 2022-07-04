@@ -5,7 +5,7 @@ func average(input [15]float32) (result float32) {
      
     sum := 0
  
-    or i := 0; i < n; i++ {
+    for i := 0; i < n; i++ {
  
         // adding the values of
         // array to the variable sum
